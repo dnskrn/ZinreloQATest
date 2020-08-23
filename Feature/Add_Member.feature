@@ -18,7 +18,7 @@ Feature: To Verify the Search Member Functionality of Zinrelo.com
     And I Enter Last Name as "" on Add Member POP-UP
     And I Enter Member ID as "" on Add Member POP-UP
     And I Click on ADD Button on Add Member POP-UP
-    Then I Verify the The Error Message as "Blank_Email1" on Add Member POP-UP
+    Then I Verify the The Error Message as "Blank_Email" on Add Member POP-UP
     And I Click on Cross Button to close the POP-UP
     And I Click on element Logout Button on HomePage
 
