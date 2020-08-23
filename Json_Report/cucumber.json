@@ -1,0 +1,320 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3247399700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the login Page of \"Zinrelo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Zinrelo.com",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginPageStepDef.i_am_on_the_login_Page_of(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27271400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Verify the Title of \"Login_Page_Title\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login_Page_Title",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginPageStepDef.i_Verify_the_Title_of(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 593361200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Enter the text as \"Email\" in text box of Email Id on LoginPage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginPageStepDef.i_Enter_the_text_as_in_text_box_of_Email_Id_on_LoginPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215514800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Enter the text as \"Password\" in text box of Password on LoginPage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginPageStepDef.i_Enter_the_text_as_in_text_box_of_Password_on_LoginPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 246554000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Click on the Login Button on LoginPage",
+            "match": {
+              "location": "LoginPageStepDef.i_Click_on_the_Login_Button_on_LoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22243700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Verify the Title of \"Home_Page_Title\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home_Page_Title",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginPageStepDef.i_Verify_the_Title_of(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8101218400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitializeBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To Verify that User should not be able to Add Member if provided all the field as Blank",
+        "description": "",
+        "id": "to-verify-the-search-member-functionality-of-zinrelo.com;to-verify-that-user-should-not-be-able-to-add-member-if-provided-all-the-field-as-blank",
+        "after": [
+          {
+            "result": {
+              "duration": 3808588100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5779818200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Click on Members Tab of Home Page",
+            "match": {
+              "location": "HomePageStepDef.i_Click_on_Members_Tab_of_Home_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 286916600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Click on Add New Member Button of Home Page",
+            "match": {
+              "location": "HomePageStepDef.i_Click_on_Add_New_Member_Button_of_Home_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 473688500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Enter Email Address as \"\" on Add Member POP-UP",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 26
+                }
+              ],
+              "location": "AddMemberPopUPStepDef.i_Enter_Email_Address_as_on_Add_Member_POP_UP(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320058900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Enter First Name as \"\" on Add Member POP-UP",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 23
+                }
+              ],
+              "location": "AddMemberPopUPStepDef.i_Enter_First_Name_as_on_Add_Member_POP_UP(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 242800300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I Enter Last Name as \"\" on Add Member POP-UP",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 22
+                }
+              ],
+              "location": "AddMemberPopUPStepDef.i_Enter_Last_Name_as_on_Add_Member_POP_UP(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225878100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I Enter Member ID as \"\" on Add Member POP-UP",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 22
+                }
+              ],
+              "location": "AddMemberPopUPStepDef.i_Enter_Member_ID_as_on_Add_Member_POP_UP(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 226563900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I Click on ADD Button on Add Member POP-UP",
+            "match": {
+              "location": "AddMemberPopUPStepDef.i_Click_on_ADD_Button_on_Add_Member_POP_UP()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104112600,
+              "error_message": "java.lang.AssertionError: expected [null] but found [Email seems to be blank. Please fix this error to proceed.]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:132)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat com.Zinrelo.StepDef.AddMemberPopUPStepDef.i_Verify_the_The_Error_Message_as_on_Add_Member_POP_UP(AddMemberPopUPStepDef.java:70)\r\n\tat ✽.Then I Verify the The Error Message as \"Blank_Email1\" on Add Member POP-UP(Add_Member.feature:21)\r\n",
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "I Verify the The Error Message as \"Blank_Email1\" on Add Member POP-UP",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blank_Email1",
+                  "offset": 35
+                }
+              ],
+              "location": "AddMemberPopUPStepDef.i_Verify_the_The_Error_Message_as_on_Add_Member_POP_UP(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I Click on Cross Button to close the POP-UP",
+            "match": {
+              "location": "AddMemberPopUPStepDef.i_Click_on_Cross_Button_to_close_the_POP_UP()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I Click on element Logout Button on HomePage",
+            "match": {
+              "location": "HomePageStepDef.i_Click_on_element_Logout_Button_on_HomePage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@AllFieldBlank"
+          }
+        ]
+      }
+    ],
+    "name": "To Verify the Search Member Functionality of Zinrelo.com",
+    "description": "",
+    "id": "to-verify-the-search-member-functionality-of-zinrelo.com",
+    "keyword": "Feature",
+    "uri": "Add_Member.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@AddMemberFunctionality"
+      },
+      {
+        "line": 1,
+        "name": "@DK"
+      }
+    ]
+  }
+]
